@@ -1,0 +1,73 @@
+/*Stylesheet for random website */
+* {font-family:'sintony'; padding: 0; margin: 0;}
+
+body {background-color:#000;
+	margin:0 0 0 0;
+	background-image:url(images/images.jpg);
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	}
+
+/*Sections*/
+
+#outside {width:960px; margin:0px auto; background-color:#FFF;}
+
+#wrapper{width:900px; height:100%; margin:0px auto; background-color:#FFF;}	
+
+header{margin:15px 0px 8px 0px; float:left;}
+
+#social-media-icons {float:right;}
+#social-media-icons ul li{display:inline;} 
+#social-media-icons ul {margin:10px 0px 0px 0px;}
+
+nav {clear:both; margin-bottom:10px;}
+nav ul {border-top:1px #000 solid; border-bottom: 1px solid; margin: 20px 0px 5px 0px; padding: 10px 0px;}
+nav ul li {display:inline-block;}
+nav ul li a {padding:0px 27px;}
+
+#rightside {width:210px; float:right; border: 1px #ccc solid; padding:0px 0px 0px 10px; margin-top:53px; }
+
+#content{width:675px; height:100%; float:left;}
+
+#bottompicture {float:left;}
+
+footer {text-align:center; margin: -10px 0px 0px 0px; padding-bottom:5px; clear:both; border-top:1px #ccc solid;}
+
+/*text */
+
+
+h1 {font-size:24px; padding-bottom:5px; border-bottom: 1px #ccc solid; margin-bottom:15px; font-weight:bold; color:#ed1b24;}
+h2 {font-size:20px; font-weight:bold;}
+h3 {font-size:16px; margin-bottom:5px; font-weight:bold;}
+
+a:link, a:visited {color:#000; text-decoration: none; font-weight: bold;}
+a:hover {color:#ed1b24; font-weight:bold;}
+
+p {margin-bottom: 10px; font-size:16px;}
+
+/*class*/
+
+.date{font-size:15px; font-weight:bold; color:#ed1b24; margin-bottom:-5px;}
+
+.musicnews {margin:10px 46px 10px 35px; border-bottom: 1px #ccc solid;}
+
+.footer-text {font-size:12px; font-style:normal; color:#000; text-align:center;}
+
+.image-frame {padding:10px; border:1px #ccc solid; margin:10px 10px 10px 0px;}
+
+/*dubstep page stuff */
+
+.left {width:280px; height:900px; border:1px #ccc solid; border-radius: 10px; float: left; margin:0px 27px 0px 0px;}
+	
+.title {text-align:center;}
+	
+.middle {width:280px; height:900px; border:1px #ccc solid; border-radius:10px; float: left; margin:0px 0px 0px 0px;}	
+
+.right {	width:280px; height:900px; border:1px #ccc solid; border-radius:10px; float: left; margin:0px 0px 0px 27px;}
+	
+/*forms*/
+
+input {}
+	
+legend {color:#ed1b24;}
+
